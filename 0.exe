@@ -1,15 +1,1 @@
-import pyautogui
-pyautogui.FAILSAFE = False
 
-pyautogui.click(5000, 5000)
-
-for i in range(1, 100):
-
-    pyautogui.moveRel(-35, -15)
-    pyautogui.moveRel(-15, -35)
-    pyautogui.moveRel(15, -35)
-    pyautogui.moveRel(35, -15)
-    pyautogui.moveRel(35, 15)
-    pyautogui.moveRel(15, 35)
-    pyautogui.moveRel(-15, 35)
-    pyautogui.moveRel(-35, 15)
